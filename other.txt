@@ -1,0 +1,59 @@
+editable={!this.state.waitForCode} keyboardType={"numeric"}
+value={this.state.phoneNumber} onChangeText={text => this.onChangePhone(text)}
+
+  return (
+    <ImageBackground
+      source={require("../img/background-01.png")}
+      style={[styles.imageSplash]}
+    >            // <Grid>
+            // <Row size={2} />
+            // <Row size={3}>
+            //   <View style={{flex:1, alignItems: "center", justifyContent: "center" }}>
+            //     <Image style={styles.logo3} source={require("../img/logo.png")}/>
+            //   </View>
+            // </Row>
+            // <Row size={2}>
+            //   <View style={{flex:1, alignItems: "center" }}>
+            //     <Text style={[styles.inPageTitle]}>
+            //       حساب کاربری خود را ایجاد نمایید:
+            //     </Text>
+            //   </View>
+            // </Row>
+            // <Row size={4} style={{ marginTop: 10 }}>
+            //     <Text style={[styles.iranSansBold]}>
+            //       +98
+            //     </Text>
+            //     // <TextInput underlineColorAndroid="transparent" style={[styles.inputBox, styles.mt20, styles.textCenter]}
+            //     //   />
+            //       // <Item>
+            //       //   <Input placeholder="شماره همراه خود را وارد نمایید" />
+            //       // </Item>
+            //     // {this.state.waitForCode ? (
+            //     //     <TextInput underlineColorAndroid="transparent" secureTextEntry={true} keyboardType={"numeric"}
+            //     //       style={[styles.inputBox, styles.mt20, styles.textCenter]} placeholder="لطفا کد رمز یک بار مصرف را وارد کنید"
+            //     //       editable={this.state.waitForCode} value={this.state.activeCode}  onChangeText={text => this.setState({ activeCode: text })}/>
+            //     //   ) : null}
+            //     // {this.state.showTimer ? (
+            //     //   <TimerCountdown initialSecondsRemaining={1000 * 60} onTimeElapsed={() => this.onTimePassed()} allowFontScaling={true}
+            //     //     style={{fontSize: 16,color: "#424242",fontFamily: "IRANSans(FaNum)",alignSelf: "center", marginVertical: 20}}/>
+            //     // ) : null}
+            //     // {this.state.retry ? (
+            //     //   <TouchableOpacity style={[styles.buttonPrimary, styles.mt20]} onPress={() => {this.requestCode();}}>
+            //     //       <Text style={[styles.buttonTextWhite]}>تلاش مجدد</Text>
+            //     //   </TouchableOpacity>
+            //     // ) : null}
+            //     // {this.state.waitForCode ? null : (
+            //     //   <TouchableOpacity style={[styles.buttonNext, styles.mt2]} onPress={() => {this.requestCode();}}>
+            //     //       <Image source={require("../img/next-btn.png")}/>
+            //     //   </TouchableOpacity>
+            //     // )}
+            //     // {this.state.waitForCode ? (
+            //     //   <TouchableOpacity style={[styles.buttonSuccess, styles.mt20]} onPress={() => {this.sendCode();}}>
+            //     //     <Text style={[styles.buttonTextWhite]}>ورود</Text>
+            //     //   </TouchableOpacity>
+            //     // ) : null}
+            // </Row>
+            // <Row size={1} style={{ marginBottom: 20 }} />
+          // </Grid>
+    </ImageBackground>
+  );
